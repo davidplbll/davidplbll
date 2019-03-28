@@ -1,10 +1,22 @@
 import React from 'react';
 
-const Education=()=>(
+import H2Styled from '../styled/H2Styled';
+import H3Styled from '../styled/H3Styled';
+import PStyled from '../styled/PStyled';
+const Education = props => (
   <div className="Education">
-    <div className="Education-item">
-      <h3>MIT</h3>
-      <p>soy pro</p>
+    <H2Styled name={"Education"}/>
+    <div className="Education-container">
+      {
+        props.data.map((edu, index) => (
+          <div className="Education-item" key={`Edu-${index}`}>
+            <H3Styled>{edu.degree} @ {edu.institucion}
+              <span>{edu.startDate} - {edu.endDate}</span>
+            </H3Styled>
+            <PStyled name={edu.description} />
+          </div>
+        ))
+      }
     </div>
   </div>
 );

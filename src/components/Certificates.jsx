@@ -1,10 +1,21 @@
 import React from 'react';
 
-const Certification=()=>(
+import H2Styled from '../styled/H2Styled';
+import H3Styled from '../styled/H3Styled';
+import PStyled from '../styled/PStyled';
+
+const Certification = props => (
   <div className="Certification">
-    <div className="Certification-item">
-      <h3>JS</h3>
-      <p>mucho</p>
+    <H2Styled name={"Education"}/>
+    <div className="Certification-container">
+      {props.data.map((certificate, index) => (
+        <div className="Certification-item" key={`certificate-${index}`}>
+          <H3Styled>{certificate.name} @ {certificate.institution}
+            <span>{certificate.date}</span>
+          </H3Styled>
+          <PStyled name={certificate.description} />
+        </div>
+      ))}
     </div>
   </div>
 );
