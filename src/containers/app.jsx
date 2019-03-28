@@ -7,9 +7,12 @@ import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Certificates from '../components/Certificates';
 import Skills from '../components/Skills';
+import useGetData from '../hooks/useGetData'
 
 
 const App=()=>{
+  const data=useGetData();
+ console.log("data ", data);
   return(
     <Main>
       <Sidebar>
