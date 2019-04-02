@@ -6,7 +6,7 @@ const StyledH2=Styled.h2`
   fon-weight:300;
   letter-spacing:.8px;
   margin:1em 0 0 0;
-  color:#C2185B;
+  color:#706c92;
 `;
 
 const H2Styled=({name})=><StyledH2>{name}</StyledH2>;
