@@ -9,7 +9,7 @@
 <br />
 <br />
 
- <img align="right" alt="GIF" width="45%" src="https://crossmediadigital.com/wp-content/uploads/2020/04/1_IRGHmiGsa16stedQvIaZfw.gif" />
+ <img align="right" alt="GIF" width="45%" src="https://media0.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/source.gif" />
 
 **Talking about Personal Stuffs:**
 
