@@ -19,6 +19,7 @@
 - 👯 I'm collaborate on [Clickpets](https://clickpets.love/login) 🤝;
 - 💬 Ask me about anything, I am happy to help;
 - 📫 How to reach me: davidplbll@gmail.com;
+- My [CV](https://flowcv.com/resume/4ltcwnn97l)
 
 
 **Languages and Tools:** 
